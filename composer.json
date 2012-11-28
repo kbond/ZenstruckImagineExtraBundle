@@ -1,0 +1,26 @@
+{
+    "name": "zenstruck/imagine-extra-bundle",
+    "description": "Integrate imagine-filters library into Symfony2",
+    "keywords": ["imagine"],
+    "homepage": "http://zenstruck.com/project/ZenstruckImagineExtraBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Bond",
+            "email": "kevinbond@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony"           : "2.*",
+        "zenstruck/imagine-filters" : "*"
+    },
+    "suggest": {
+        "liip/imagine-bundle": "For integration with LiipImagineBundle",
+        "avalanche123/imagine-bundle": "For integration with AvalancheImagineBundle"
+    },
+    "autoload": {
+        "psr-0": { "Zenstruck\\Bundle\\ImagineExtraBundle": "" }
+    },
+    "target-dir": "Zenstruck/Bundle/ImagineExtraBundle"
+}
