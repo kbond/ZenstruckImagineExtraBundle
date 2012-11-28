@@ -19,6 +19,11 @@
         "liip/imagine-bundle": "For integration with LiipImagineBundle",
         "avalanche123/imagine-bundle": "For integration with AvalancheImagineBundle"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1x-dev"
+        }
+    },
     "autoload": {
         "psr-0": { "Zenstruck\\Bundle\\ImagineExtraBundle": "" }
     },
