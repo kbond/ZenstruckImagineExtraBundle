@@ -1,6 +1,6 @@
 # ImagineExtraBundle
 
-Integrates the [imagine-filter](https://github.com/kbond/imagine-filters) library into Symfony2.
+Integrates the [imagine-filters](https://github.com/kbond/imagine-filters) library into Symfony2.
 
 **NOTE**: This bundle requires either [LiipImagineBundle](https://github.com/liip/LiipImagineBundle) or
 [AvalancheImagineBundle](https://github.com/avalanche123/AvalancheImagineBundle)
