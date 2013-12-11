@@ -20,7 +20,7 @@ use Imagine\Image\Color;
 abstract class AbstractSquareThumbnailFilterLoader
 {
     /**
-     * @param array $options
+     * @param  array                                           $options
      * @return \Zenstruck\Imagine\Filter\SquareThumbnailFilter
      */
     protected function buildFilter(array $options = array())

@@ -15,7 +15,6 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
-use Symfony\Component\Config\Definition\Processor;
 use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException;
 
 /**
@@ -30,11 +29,13 @@ class ZenstruckImagineExtraExtension extends Extension
 
         if (array_key_exists('LiipImagineBundle', $bundles)) {
             $loader->load('liip.xml');
+
             return;
         }
 
         if (array_key_exists('AvalancheImagineBundle', $bundles)) {
             $loader->load('avalanche.xml');
+
             return;
         }
 
