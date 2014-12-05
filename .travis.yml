@@ -1,0 +1,22 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+
+env:
+  - IMAGINE_VERSION=0.4.*
+  - IMAGINE_VERSION=0.5.*
+  - IMAGINE_VERSION=0.6.*
+
+before_install:
+  - composer require imagine/imagine:${IMAGINE_VERSION}
+
+script: phpunit --coverage-clover=coverage.clover
+
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
