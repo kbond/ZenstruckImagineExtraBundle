@@ -12,8 +12,12 @@
         }
     ],
     "require": {
-        "symfony/symfony"           : "2.*",
-        "zenstruck/imagine-filters" : "*"
+        "symfony/http-kernel": "~2.1",
+        "symfony/dependency-injection": "~2.1",
+        "zenstruck/imagine-filters" : "~1.2"
+    },
+    "require-dev": {
+        "matthiasnoback/symfony-dependency-injection-test": "~0.4"
     },
     "suggest": {
         "liip/imagine-bundle": "For integration with LiipImagineBundle",
@@ -25,7 +29,6 @@
         }
     },
     "autoload": {
-        "psr-0": { "Zenstruck\\Bundle\\ImagineExtraBundle": "" }
-    },
-    "target-dir": "Zenstruck/Bundle/ImagineExtraBundle"
+        "psr-4": { "Zenstruck\\Bundle\\ImagineExtraBundle\\": "" }
+    }
 }

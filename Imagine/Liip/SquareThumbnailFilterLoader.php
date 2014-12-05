@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the ZenstruckImagineExtraBundle package.
- *
- * (c) Kevin Bond <http://zenstruck.com/>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace Zenstruck\Bundle\ImagineExtraBundle\Imagine\Liip;
 
 use Zenstruck\Bundle\ImagineExtraBundle\Imagine\AbstractSquareThumbnailFilterLoader;
@@ -20,6 +11,9 @@ use Imagine\Image\ImageInterface;
  */
 class SquareThumbnailFilterLoader extends AbstractSquareThumbnailFilterLoader implements LoaderInterface
 {
+    /**
+     * {@inheritdoc}
+     */
     public function load(ImageInterface $image, array $options = array())
     {
         return $this->buildFilter($options)->apply($image);

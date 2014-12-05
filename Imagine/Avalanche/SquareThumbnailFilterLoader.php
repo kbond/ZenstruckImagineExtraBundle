@@ -1,12 +1,4 @@
 <?php
-/*
- * This file is part of the ZenstruckImagineExtraBundle package.
- *
- * (c) Kevin Bond <http://zenstruck.com/>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
 
 namespace Zenstruck\Bundle\ImagineExtraBundle\Imagine\Avalanche;
 
@@ -18,6 +10,9 @@ use Avalanche\Bundle\ImagineBundle\Imagine\Filter\Loader\LoaderInterface;
  */
 class SquareThumbnailFilterLoader extends AbstractSquareThumbnailFilterLoader implements LoaderInterface
 {
+    /**
+     * {@inheritdoc}
+     */
     public function load(array $options = array())
     {
         return $this->buildFilter($options);
