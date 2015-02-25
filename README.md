@@ -3,6 +3,7 @@
 [![Build Status](http://img.shields.io/travis/kbond/ZenstruckImagineExtraBundle.svg?style=flat-square)](https://travis-ci.org/kbond/ZenstruckImagineExtraBundle)
 [![Scrutinizer Code Quality](http://img.shields.io/scrutinizer/g/kbond/ZenstruckImagineExtraBundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/kbond/ZenstruckImagineExtraBundle/)
 [![Code Coverage](http://img.shields.io/scrutinizer/coverage/g/kbond/ZenstruckImagineExtraBundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/kbond/ZenstruckImagineExtraBundle/)
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/dd9b8c5b-b47b-43e5-b41d-1efb98554b4f.svg?style=flat-square)](https://insight.sensiolabs.com/projects/dd9b8c5b-b47b-43e5-b41d-1efb98554b4f)
 [![Latest Stable Version](http://img.shields.io/packagist/v/zenstruck/imagine-extra-bundle.svg?style=flat-square)](https://packagist.org/packages/zenstruck/imagine-extra-bundle)
 [![License](http://img.shields.io/packagist/l/zenstruck/imagine-extra-bundle.svg?style=flat-square)](https://packagist.org/packages/zenstruck/imagine-extra-bundlee)
 
